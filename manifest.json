@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Pilled.net Chat Auto-Scroller",
+  "version": "1.0",
+  "description": "Automatically scrolls the chat on pilled.net to the bottom. Controlled via extension management.",
+  "permissions": ["activeTab", "scripting", "tabs", "management"],
+  "host_permissions": ["*://pilled.net/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
